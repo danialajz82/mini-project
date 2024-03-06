@@ -4,13 +4,14 @@ import ReactDOM from "react-dom/client";
 // import Login from "../not-use4/login";
 // import App from "./not-use4/login";
 // import List from "./not-use5/List";
-import Form from "./not-use6/Form";
+// import Form from "./not-use6/Form";
+import Weather from "./not-use7/weatherapp";
 // import App from "./not-use/App";
 // import Clock from "./not-use2/clock";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Form />
+    <Weather />
   </React.StrictMode>
 );
