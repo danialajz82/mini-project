@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 
 function App() {
-  // وضعیت ورود کاربر را نگهداری می‌کند
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  // تابع برای تغییر وضعیت ورود کاربر
   const handleLogin = () => {
     setIsLoggedIn(true);
   };
 
-  // اگر کاربر وارد شده باشد، پیام خوش‌آمدگویی را نمایش دهید، در غیر این صورت فرم ثبت‌نام را نمایش دهید
   return (
     <div>
       {isLoggedIn ? (
